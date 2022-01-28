@@ -11,6 +11,7 @@ Waals interactions, and `restraints` the addition of orientational restraints.
 
 The directories for each step have the following tree structure:
 
+```
 step
 ├── em
 │   └── em.mdp
@@ -22,7 +23,7 @@ step
 │   └── npt-norest.mdp
 └── prod
     └── prod.mdp
-
+```
 
 Each sub-directory refers to the following:
 
