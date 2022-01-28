@@ -4,6 +4,7 @@ Included here are the input topology and structures used for each of the ligands
 
 ## Directory structure and contents
 
+```
 <system>
 └── ligand-<id>
     ├── complex
@@ -19,7 +20,7 @@ Included here are the input topology and structures used for each of the ligands
         │   ├── coul
         │   └── vdw
         └── gromacs
-
+```
 
 ### `<system>`
 
