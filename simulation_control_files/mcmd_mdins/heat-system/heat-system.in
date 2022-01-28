@@ -1,0 +1,34 @@
+Relax water - 500 ps
+ &cntrl
+  imin     = 0,
+  ig       = -1,
+  ntx      = 1,
+  irest    = 0,
+  ntpr     = 500,
+  ntwx     = 500,
+  ntwr     = 500,
+  ntf      = 2,
+  ntc      = 2,
+  ntb      = 1,
+  cut      = 10.0,
+  nstlim   = 125000,
+  nscm     = 1250,
+  dt       = 0.004,
+  tempi    = 10,
+  temp0    = 298.15,
+  ntt      = 3,
+  gamma_ln = 2.0,
+  ntr      = 1,
+  jfastw   = 0,
+  WATNAM   = 'SOL',
+  OWTNM    = 'OW',
+  HWTNM1   = 'HW1',
+  HWTNM2   = 'HW2',
+  restraintmask = "(:1-164@N,CA,C)|((:LIG)&(!@H=))",
+  restraint_wt  = 5,
+ &end
+ &ewald
+  skin_permit = 0.75,
+  netfrc = 0,
+ &end
+ /

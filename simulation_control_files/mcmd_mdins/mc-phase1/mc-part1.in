@@ -1,0 +1,41 @@
+MC phase 1 restraints all - 5 ns
+ &cntrl
+  imin     = 0,
+  ig       = -1,
+  ntx      = 5,
+  irest    = 1,
+  ntpr     = 1000,
+  ntwx     = 1000,
+  ntwr     = 5000,
+  ntf      = 2,
+  ntc      = 2,
+  ntb      = 1,
+  cut      = 10.0,
+  nstlim   = 1250000,
+  nscm     = 1250,
+  dt       = 0.004,
+  tempi    = 298.15,
+  temp0    = 298.15,
+  ntt      = 3,
+  gamma_ln = 2.0,
+  ntr      = 1,
+  jfastw   = 0,
+  WATNAM   = 'SOL',
+  OWTNM    = 'OW',
+  HWTNM1   = 'HW1',
+  HWTNM2   = 'HW2',
+  mcwat    = 1,
+  mcint    = 1000,
+  mcrescyc = 25000,
+  mcresstr = "SOL",
+  mcwatmaxdif = 100.0,
+  mcboxshift = 12.0,
+  restraintmask = "(:1-164@N,CA,C)|((:LIG)&(!@H=))",
+  restraint_wt  = 5,
+ &end
+ &ewald
+  skin_permit = 0.75,
+  netfrc = 0,
+ &end
+ /
+

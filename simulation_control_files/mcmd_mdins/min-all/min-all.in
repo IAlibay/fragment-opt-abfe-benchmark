@@ -1,0 +1,19 @@
+Minimize waters
+ &cntrl
+  imin = 1,
+  ntx = 1,
+  irest = 0,
+  ntmin = 1,
+  nmropt = 0,
+  maxcyc = 10000,
+  ncyc = 5000,
+  ntpr = 100,
+  ntwr = 250,
+  cut = 10.0,
+  jfastw   = 0,
+  WATNAM   = 'SOL',
+  OWTNM    = 'OW',
+  HWTNM1   = 'HW1',
+  HWTNM2   = 'HW2',
+ /
+

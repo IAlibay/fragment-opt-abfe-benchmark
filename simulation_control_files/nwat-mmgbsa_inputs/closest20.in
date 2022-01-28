@@ -1,0 +1,6 @@
+trajin traj.ncdf
+solvent :SOL
+closestwaters 20 :LIG oxygen
+strip :NA,CL,Na+,Cl- outprefix N20
+trajout N20.nc
+go
